@@ -1,0 +1,65 @@
+@font-face {
+  font-family: Barlow;
+  src: url("./assets/fonts/barlow.bold-italic.ttf");
+}
+
+:root {
+  --off-white: hsl(36, 100%, 99%);
+}
+
+body {
+  background-color: var(--off-white);
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  font-family: Barlow, sans-serif;
+  text-transform: uppercase;
+  padding-inline: 1rem;
+  height: 2rem;
+  padding-block: 1rem;
+  border-bottom: 1px solid rgb(219, 229, 230);
+  position: sticky;
+  width: 100vw;
+}
+.header--content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: auto;
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  padding-right: 1rem;
+  align-items: center;
+}
+.logo img {
+  height: 100%;
+}
+header nav div {
+  margin-inline: 1rem;
+  position: relative;
+  width: fit-content;
+}
+
+header nav div:after {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: rgb(237, 44, 73);
+  transform-origin: center;
+  transition: transform 0.3s ease 0s;
+}
+header nav div:hover:after {
+  transform: scaleX(1);
+}
+header nav div:hover {
+  cursor: pointer;
+}
