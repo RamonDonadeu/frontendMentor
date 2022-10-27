@@ -227,11 +227,11 @@ header nav div:hover {
 }
 
 .myProjects--title a {
+  align-items: center;
   height: 10rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
 }
 
 .myProjects--title img {
