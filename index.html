@@ -24,14 +24,83 @@
           />
         </div>
         <nav>
-          <div class="headerElem">Mis proyectos</div>
-          <div class="headerElem">Frontend Mentor</div>
+          <div class="headerElem">
+            <a href="#frontendMentor">Frontend Mentor</a>
+          </div>
+          <div class="headerElem">
+            <a href="#myProjects">Mis proyectos</a>
+          </div>
+          <div class="headerElem">Mi Portfolio</div>
         </nav>
       </div>
     </header>
-    <h1>My Frontend Mentor projects</h1>
-    <section class="projects"></section>
+    <div class="headerSeparator" id="frontendMentor"></div>
+    <section class="frontendMentor">
+      <div class="container">
+        <div class="frontendMentor--content">
+          <h2>¿Qué és Frontend Mentor?</h2>
+          <div class="frontendMentor--text">
+            Frontend Mentor és una pagina web en la que se te ofrecen retos para
+            mejorar tus habilidades Frontend. <br />
+            Puedes seleccionar el ejercicio que te apetezca y te ofrecen unas
+            imagenes con el diseño que debes conseguir, junto con los assets
+            necesarios, imagenes, fuentes, logos, etc...
+          </div>
+          <button onClick="window.open('https://www.frontendmentor.io');">
+            Ir a Frontend Mentor
+          </button>
+        </div>
+        <div class="frontendMentor--slides" id="js--slides">
+          <div class="frontendMentor--slide active" id="1">
+            <img src="./assets/img/download.svg" alt="" />
+            <h3>Elige tu reto</h3>
+            <p>
+              Echa un vistazo a la coleccion de diseños web. Elige el que te
+              parezca un buen reto para tu nivel.
+            </p>
+          </div>
+          <div class="frontendMentor--slide" id="2">
+            <img src="./assets/img/code.svg" alt="" />
+            <h3>Crea el diseño</h3>
+            <p>
+              Empieza el reto y descarga los archivos. Te proporcionamos todos
+              los archivos que necesitaras para completar el reto. Construirlo
+              és cosa tuya.
+            </p>
+          </div>
+          <div class="frontendMentor--slide" id="3">
+            <img src="./assets/img/share.svg" alt="" />
+            <h3>Comparte tu solucion</h3>
+            <p>
+              Sube tu solucion a la plataforma para que todo el mundo pueda ver
+              y recibe feedback de tu codigo de otros desarrolladores de la
+              comunidad.
+            </p>
+          </div>
+          <div class="frontendMentor--slide" id="4">
+            <img src="./assets/img/forum.svg" alt="" />
+            <h3>Da feedback a otros</h3>
+            <p>
+              Tener pensamiento critico sobre el trabajo de otras personas es
+              una habilidad crucial. Ayudales con tus conocimientos dandoles
+              feedback a sus soluciones.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="myprojects">
+      <div class="container">
+        <div class="myProjects--title">
+          <a href="#myProjects">
+            <h1>Mis proyectos en Frontend Mentor</h1>
+            <img src="./assets/img/down.svg" alt=""
+          /></a>
+        </div>
+        <div class="myProjects--content" id="myProjects"></div>
+      </div>
+    </div>
     <footer></footer>
   </body>
-  <script src="./script.js"></script>
+  <script src="./scripts/frontendMentor.js"></script>
 </html>
