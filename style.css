@@ -243,3 +243,79 @@ header nav div:hover {
   height: 5rem;
   cursor: pointer;
 }
+
+/* ======================= PROJECT ITEMS ==================== */
+
+.project {
+  width: 30%;
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 1px solid var(--border--gray);
+}
+
+.project--imgContainer {
+  width: 100%;
+  position: relative;
+}
+
+.project--imgContainer img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.project--hover {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.827);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.project:hover .project--hover {
+  opacity: 1;
+}
+
+.gitlink,
+.pagelink {
+  color: var(--off-white);
+  border: 1px solid var(--off-white);
+  border-radius: 1rem;
+  padding: 0.3rem 1rem;
+  width: 40%;
+  text-align: center;
+  margin: 0.5rem;
+  transition: 0.3s;
+}
+
+.gitlink:hover,
+.pagelink:hover {
+  background-color: var(--frontend--blue);
+  border: 1px solid var(--frontend--blue);
+}
+
+.project--content {
+  padding: 1rem;
+}
+
+.project--title {
+  font-size: 1.5rem;
+}
+
+.project--info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.info--stack {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
