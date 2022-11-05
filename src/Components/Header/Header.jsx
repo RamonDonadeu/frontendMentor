@@ -18,7 +18,9 @@ const Header = () => {
           <div className="headerElem">
             <a href="#myProjects">Mis proyectos</a>
           </div>
-          <div className="headerElem">Mi Portfolio</div>
+          <div className="headerElem">
+            <a href="https://rdonadeu.dev/">Mi portfolio</a>
+          </div>
         </nav>
       </div>
     </header>
