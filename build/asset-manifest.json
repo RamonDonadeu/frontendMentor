@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/frontendMentor/static/css/main.c42b4aff.css",
+    "main.js": "/frontendMentor/static/js/main.6e400b24.js",
+    "static/media/desktop-preview.png": "/frontendMentor/static/media/desktop-preview.4cd80f90f5762492c577.png",
+    "static/media/barlow.bold-italic.ttf": "/frontendMentor/static/media/barlow.bold-italic.12539adf6d54e39c89e0.ttf",
+    "static/media/Heebo-Regular.ttf": "/frontendMentor/static/media/Heebo-Regular.9667d671d5a86bb83fdc.ttf",
+    "static/media/fontendMentorIcon.svg": "/frontendMentor/static/media/fontendMentorIcon.0b167fe4d6046b89d949a798ce9aec6a.svg",
+    "static/media/frontendMentorBackground.svg": "/frontendMentor/static/media/frontendMentorBackground.e1c86fe3bfa24c990e75.svg",
+    "static/media/share.svg": "/frontendMentor/static/media/share.8de5c9d85860d2a4f204819d719cc5b8.svg",
+    "static/media/frontendMentorBackground2.svg": "/frontendMentor/static/media/frontendMentorBackground2.b775584f12ff85ec3d51.svg",
+    "index.html": "/frontendMentor/index.html",
+    "static/media/download.svg": "/frontendMentor/static/media/download.135f100b848cc6f471d5dfdd47359931.svg",
+    "static/media/code.svg": "/frontendMentor/static/media/code.7e0fece96ff8ec2a790adf4c34ac0ddb.svg",
+    "static/media/forum.svg": "/frontendMentor/static/media/forum.7fb016a2d8df07739dfb176384e3ea5e.svg",
+    "static/media/down.svg": "/frontendMentor/static/media/down.d9739a2b8c51e44421f3edd860e33754.svg",
+    "main.c42b4aff.css.map": "/frontendMentor/static/css/main.c42b4aff.css.map",
+    "main.6e400b24.js.map": "/frontendMentor/static/js/main.6e400b24.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c42b4aff.css",
+    "static/js/main.6e400b24.js"
+  ]
+}
