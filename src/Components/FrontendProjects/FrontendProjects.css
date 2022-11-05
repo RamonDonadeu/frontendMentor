@@ -1,0 +1,163 @@
+.myProjects--content {
+  padding-top: 2rem;
+  width: 90%;
+  margin: auto;
+}
+.project {
+  width: 30%;
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 1px solid var(--border--gray);
+}
+
+.project--imgContainer {
+  width: 100%;
+  position: relative;
+}
+
+.project--imgContainer img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.project--hover {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.827);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.project:hover .project--hover {
+  opacity: 1;
+}
+
+.gitlink,
+.pagelink {
+  color: var(--off-white);
+  border: 1px solid var(--off-white);
+  border-radius: 1rem;
+  padding: 0.3rem 1rem;
+  width: 40%;
+  text-align: center;
+  margin: 0.5rem;
+  transition: 0.3s;
+}
+
+.gitlink:hover,
+.pagelink:hover {
+  background-color: var(--frontend--blue);
+  border: 1px solid var(--frontend--blue);
+}
+
+.project--content {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.project--title {
+  font-size: 1.3rem;
+}
+
+.project--info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.info--stack {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.infoCss {
+  color: rgb(62, 84, 163);
+}
+
+.infoHtml {
+  color: rgb(106, 190, 205);
+}
+
+.infoJs {
+  color: rgb(207, 99, 144);
+}
+
+.difficultyContainer {
+  display: flex;
+  flex-direction: row;
+  border-radius: 0.25rem;
+  font-size: 0.6rem;
+  font-weight: bold;
+  height: 1.1rem;
+  align-items: center;
+  overflow: hidden;
+}
+.difficultyContainer .difNum {
+  width: 1.1rem;
+  height: 1.1rem;
+  color: var(--off-white);
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.difficultyContainer .difText {
+  background-color: var(--off-white);
+  padding-inline: 0.5rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.diff1 {
+  border: 1px solid var(--newbie);
+  background-color: var(--newbie);
+}
+.diff1 .difText {
+  color: var(--newbie);
+}
+.diff2 {
+  border: 1px solid var(--junior);
+  background-color: var(--junior);
+}
+.diff2 .difText {
+  color: var(--junior);
+}
+.diff3 {
+  border: 1px solid var(--intermediate);
+  background-color: var(--intermediate);
+}
+.diff3 .difText {
+  color: var(--intermediate);
+}
+.diff4 {
+  background-color: var(--advanced);
+  border: 1px solid var(--advanced);
+}
+.diff4 .difText {
+  color: var(--advanced);
+}
+
+@media (max-width: 760px) {
+  .myProjects--content {
+    display: flex;
+    flex-direction: column;
+  }
+  .project {
+    width: 100%;
+  }
+}
